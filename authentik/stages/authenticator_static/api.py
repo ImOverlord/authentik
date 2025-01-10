@@ -51,7 +51,7 @@ class StaticDeviceSerializer(ModelSerializer):
 
     class Meta:
         model = StaticDevice
-        fields = ["name", "token_set", "pk"]
+        fields = ["name", "token_set", "pk", "user"]
 
 
 class StaticDeviceViewSet(
